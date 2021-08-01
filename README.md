@@ -1,6 +1,6 @@
 # SelfDrivingCar
 Sunfounder self driving car based on deep learning and socket programming.
-IP Webcam app is used to send frames capture from mobile to PC where deep learning model is running, That model view every frame and predicts the direction of car and send signal back to car(raspberrypi) to either turn car left right or let it go forward.
+IP Webcam app is used to send frames capture from mobile to PC where deep learning model is running, That model analyze every frame and predicts the direction of car and send signal back to car(raspberrypi) to either turn car left right or let it go forward.
 
 Object Detection and turning angle technique is also utlized, Car is able to detect all road signs and can set speed accordingly.
 Algorithm is also tested on GTA V.
